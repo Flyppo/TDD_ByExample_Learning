@@ -11,4 +11,8 @@ public class Dollar {
 		
 		return new Dollar(amount * mulitiplier);
 	}
+	
+	public boolean equals(Dollar dollar) {
+		return amount == dollar.amount;
+	}
 }
