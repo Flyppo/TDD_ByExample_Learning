@@ -1,7 +1,6 @@
 package cn.lf.unitTest;
 
-public class Dollar {
-	int amount;
+public class Dollar extends Money {
 	
 	public Dollar(int amount) {
 		this.amount = amount;
@@ -12,7 +11,7 @@ public class Dollar {
 		return new Dollar(amount * mulitiplier);
 	}
 	
-	public boolean equals(Dollar dollar) {
-		return amount == dollar.amount;
-	}
+	
+	
+
 }
